@@ -93,7 +93,7 @@ public class Basic {
 				reverse = reverse + " " + letterreverse;
 				//reverse.trim();	
 			}
-					
+				//	
 			return reverse.trim();
 		}
 		
