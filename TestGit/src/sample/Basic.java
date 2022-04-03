@@ -25,6 +25,9 @@ public class Basic {
 		private By lnkHomeFurnish = By.xpath("//a[@class='_6WOcW9 _2-k99T']");
 		private By bedsheets = By.xpath("//a[text()='Bedsheets']");
 		
+		private By lnkHome = By.xpath("//div[text()='Home']abc");
+		private By lnkHomeFurnish = By.xpath("//a[@class='_6WOcW9 _2-k99T']xyz");
+		
 		
 		
 		public void meth() throws InterruptedException {
@@ -60,6 +63,39 @@ public class Basic {
 			
 			
 		}
+		
+		public String wordreverse(String ip) {
+			
+			String[] a1 = ip.split(" ");
+			String reversew = "";
+			for(int i=0; i<(a1.length); i++) {
+				StringBuilder sb = new StringBuilder(a1[i]);
+				sb.reverse();
+				reversew = reversew+ " " +sb.toString();
+			}
+			return reversew.trim();
+			
+		}
+		
+		public String letterreverse1(String ip) {
+			
+			String[] a = ip.split(" ");
+			String reverse = "";
+			
+			for(int i = 0; i<a.length; i++) {
+				String letterreverse = "";
+				String word = a[i];
+				for(int j=((word.length())-1); j>=0; j--) {
+					letterreverse = letterreverse + word.charAt(j);
+				}
+				reverse = reverse + " " + letterreverse;
+				//reverse.trim();	
+			}
+					
+			return reverse.trim();
+		}
+		
+		
 		
 		
 
