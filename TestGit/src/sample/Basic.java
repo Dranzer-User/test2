@@ -19,6 +19,8 @@ public class Basic {
 		Basic obj = new Basic();
 		obj.meth(); 
 	}
+	
+	public boolean b = true;
 		 
 
 		private By lnkHome = By.xpath("//div[text()='Home']");
