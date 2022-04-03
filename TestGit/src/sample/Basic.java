@@ -20,7 +20,7 @@ public class Basic {
 		obj.meth(); 
 	}
 	
-	public boolean b = true;
+	public boolean b = false;
 		 
 
 		private By lnkHome = By.xpath("//div[text()='Home']");
