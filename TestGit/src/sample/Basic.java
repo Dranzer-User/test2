@@ -27,8 +27,8 @@ public class Basic {
 		private By lnkHomeFurnish = By.xpath("//a[@class='_6WOcW9 _2-k99T']");
 		private By bedsheets = By.xpath("//a[text()='Bedsheets']");
 		
-		private By lnkHome = By.xpath("//div[text()='Home']xyz");
-		private By lnkHomeFurnish = By.xpath("//a[@class='_6WOcW9 _2-k99T']123");
+		//private By lnkHome = By.xpath("//div[text()='Home']xyz");
+		//private By lnkHomeFurnish = By.xpath("//a[@class='_6WOcW9 _2-k99T']123");
 		
 		
 		
